@@ -10,6 +10,11 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+::selection {
+    color: white;
+    background: #BF9D55;
+  }
+
 .home-header {
     background-image: url(./images/home.jpg);
     min-height: 150px;
@@ -32,6 +37,16 @@ footer {
     bottom: 0px;
     left: 0px;
     right: 0px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+    color: #414141;
 }
 
 .footer-name {
@@ -95,9 +110,23 @@ footer {
     border-width: 2px;
 }
 
+.nav-link:hover {
+    background-color: #f7e0b2d2;
+}
+
 h2 {
     font-family: 'Cinzel Decorative', cursive;
     text-align: center;
     font-size: 40px;
     color: #BF9D55;
+}
+
+.images-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+img {
+    width: 800px;
 }
