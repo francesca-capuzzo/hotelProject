@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@600&family=Montserrat+Alternates:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+/* font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Montserrat Alternates', sans-serif; */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.home-header {
+    background-image: url(./images/home.jpg);
+    min-height: 150px;
+    background-size: cover;
+    background-position: center center;
+    padding: 150px;
+    margin: 0px;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+footer {
+    background-color: #BF9D55;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.footer-name {
+    font-family: 'Cinzel', serif;
+}
+
+.footer-adress-contacts {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 0.8em;
+}
+
+.home-content-container {
+    background-color: turquoise;
+    position: relative;
+
+}
+
+.nav-menu-container {
+    background-color: yellowgreen;
+    width: 20%;
+    min-height: 200px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.content-home-container {
+    background-color: tomato;
+    width: 70%;
+    min-height: 200px;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    left: 20%;
+}
